@@ -35,3 +35,4 @@
 # 感谢
 [python-wechaty](https://github.com/wechaty/python-wechaty)   微信机器人框架  
 [Genshin_Impact_bot](https://github.com/H-K-Y/Genshin_Impact_bot)   原神大世界资源查询的实现  
+查询到的原神信息很多来自于bilibili原神wiki，和米游社原神wiki
