@@ -85,7 +85,7 @@
 输入此命令，机器人将回复玩家卡牌信息的截图。  
 如：玩家信息xxx  
 ![命令-玩家信息xxx](https://user-images.githubusercontent.com/41506567/150276504-1ad2f6af-a81f-4fb5-96bb-59e9cbb41276.png)
-![玩家信息](https://user-images.githubusercontent.com/41506567/150276519-28385b02-8a62-4bf4-8e6b-2e9a73aca90d.png)
+![玩家信息](https://user-images.githubusercontent.com/41506567/150276519-28385b02-8a62-4bf4-8e6b-2e9a73aca90d.png)  
 注：由于米游社限制了查询其他玩家所有卡牌，只能查看前八个，自娱自乐了，emm。
 ## 11、命令：深渊信息[uid]  
 输入此命令，机器人将回复玩家深渊战斗的相关信息。  
@@ -131,15 +131,14 @@
 
 # 三、被动技能
 ## 1、自动推送原神B站官方账号的动态
-此命令无输入，当原神B站官方账号发送动态时，机器人将自动推送动态到微信聊天，推送内容包括文字，图片，不包括视频，视频将推送视频链接。让你不错过任何一条官方消息。
-![命令-B站动态推送](https://user-images.githubusercontent.com/41506567/150276938-9e639d97-2131-4e52-bdb6-eeffdc0b4fb2.png)
+此命令无输入，当原神B站官方账号发送动态时，机器人将自动推送动态到微信聊天，推送内容包括文字，图片，不包括视频，视频将推送视频链接。让你不错过任何一条官方消息。  
+
+![命令-B站动态推送](https://user-images.githubusercontent.com/41506567/150276938-9e639d97-2131-4e52-bdb6-eeffdc0b4fb2.png)  
 
 注：因为微信不像QQ一样，支持一条消息包含图文，所以当动态中包含很多张图片时，可能会像窜稀一样，发送n多条，不太友好。（所以wx垃圾，qqyyds）
 ## 2、5%的概率复读
 此命令无输入，人类的本质是【复读机】，有百分之五的概率复读消息。
 ![命令-复读](https://user-images.githubusercontent.com/41506567/150276962-6aa8bca6-beb9-4bf5-a8d3-3541adc01fe0.png)
-
-
 
 # 感谢
 [python-wechaty](https://github.com/wechaty/python-wechaty)   微信机器人框架  
