@@ -138,7 +138,7 @@
 注：因为微信不像QQ一样，支持一条消息包含图文，所以当动态中包含很多张图片时，可能会像窜稀一样，发送n多条，不太友好。（所以wx垃圾，qqyyds）
 ## 2、5%的概率复读
 此命令无输入，人类的本质是【复读机】，有百分之五的概率复读消息。
-![命令-复读](https://user-images.githubusercontent.com/41506567/150276962-6aa8bca6-beb9-4bf5-a8d3-3541adc01fe0.png)
+![image](https://user-images.githubusercontent.com/41506567/150279289-1b2ae690-06a2-4174-b5d7-3ac6b901ec57.png)
 
 # 感谢
 [python-wechaty](https://github.com/wechaty/python-wechaty)   微信机器人框架  
