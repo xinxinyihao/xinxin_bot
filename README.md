@@ -23,6 +23,7 @@
 - [x] UP池子信息 【角色池 | 武器池】
 - [x] 活动日历 【游戏内活动】
 - [x] 原神官方B站订阅 【文字 | 图片】
+- [x] 抽卡记录分析 【角色祈愿 | 武器祈愿 | 常驻祈愿】 
 ### 日常功能
 - [x] 疫情信息【省 | 市】
 - [x] 微博热搜
@@ -95,14 +96,16 @@
 ![命令-up池](https://user-images.githubusercontent.com/41506567/150276728-9547a19a-a5c6-49c8-8444-06616dfde14e.png)
 ![up池](https://user-images.githubusercontent.com/41506567/150276734-84905114-105d-4386-9103-095fb6b8d714.png)
 
-
 ## 13、命令：活动日历 | hdrl  
 输入此功能，机器人将回复最近正在进行的游戏相关活动。
 ![命令-活动日历](https://user-images.githubusercontent.com/41506567/150276753-d2cdbc01-ec84-48b0-bfa4-783c21795088.png)
 
 ## 14、命令：更新所有信息  
 输入此命令，机器人将后台更新【本期up】,和【活动日历】功能中的信息。正常情况会自动更新。
-![命令-更新所有信息](https://user-images.githubusercontent.com/41506567/150276769-e6a81072-4df5-4b14-b334-d1c81c2aadb8.png)
+![命令-更新所有信息](https://user-images.githubusercontent.com/41506567/150276769-e6a81072-4df5-4b14-b334-d1c81c2aadb8.png) 
+## 15、命令：抽卡分析[url] 
+输入此命令，参数为抽卡记录页的url，机器人将回复玩家抽卡记录的分析情况。 
+![image](https://user-images.githubusercontent.com/41506567/151303626-b34033ae-252e-4dfe-88fc-6ecef71a40a2.png)
 
 # 二、日常生活功能
 ## 1、命令：疫情[省份名 | 市名]
