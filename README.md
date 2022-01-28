@@ -157,5 +157,5 @@
 # 感谢
 [python-wechaty](https://github.com/wechaty/python-wechaty)   微信机器人框架  
 [Genshin_Impact_bot](https://github.com/H-K-Y/Genshin_Impact_bot)   原神大世界资源查询的实现  
-[Genshin_Impact_bot](https://github.com/GardenHamster/GenshinPray)   模拟抽卡功能 
+[Genshin_Impact_bot](https://github.com/GardenHamster/GenshinPray)   模拟抽卡功能  
 查询到的原神信息大多来自于bilibili原神wiki，和米游社原神wiki，可莉特调
