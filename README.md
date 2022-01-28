@@ -24,6 +24,7 @@
 - [x] 活动日历 【游戏内活动】
 - [x] 原神官方B站订阅 【文字 | 图片】
 - [x] 抽卡记录分析 【角色祈愿 | 武器祈愿 | 常驻祈愿】 
+- [x] 抽卡祈愿模拟 【角色祈愿 | 武器祈愿 | 常驻祈愿】
 ### 日常功能
 - [x] 疫情信息【省 | 市】
 - [x] 微博热搜
@@ -106,6 +107,11 @@
 ## 15、命令：抽卡分析[url] 
 输入此命令，参数为抽卡记录页的url，机器人将回复玩家抽卡记录的分析情况。 
 ![image](https://user-images.githubusercontent.com/41506567/151303626-b34033ae-252e-4dfe-88fc-6ecef71a40a2.png)
+## 16、命令：[角色 | 武器 | 常驻]十连
+输入此命令，可进行角色池、武器池、常驻池的模拟抽卡，机器人加回复抽卡结果图片。数据库将记录所有成员的所有抽卡记录，可进行相关分析。 
+注：此功能来自于[Genshin_Impact_bot](https://github.com/GardenHamster/GenshinPray) 模拟抽卡功能。感谢大佬。
+![image](https://user-images.githubusercontent.com/41506567/151505634-0c61c627-6436-47aa-9c0f-fd1d48d16b48.png)
+![image](https://user-images.githubusercontent.com/41506567/151505686-ea50a2aa-dcb3-487c-a3bc-154b2da79b71.png)
 
 # 二、日常生活功能
 ## 1、命令：疫情[省份名 | 市名]
@@ -146,4 +152,5 @@
 # 感谢
 [python-wechaty](https://github.com/wechaty/python-wechaty)   微信机器人框架  
 [Genshin_Impact_bot](https://github.com/H-K-Y/Genshin_Impact_bot)   原神大世界资源查询的实现  
+[Genshin_Impact_bot](https://github.com/GardenHamster/GenshinPray)   模拟抽卡功能
 查询到的原神信息大多来自于bilibili原神wiki，和米游社原神wiki，可莉特调
