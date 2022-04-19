@@ -35,20 +35,28 @@
 - [x]  网易云热评
 - [x]  复读机
 # 更新记录 
+### 2022-04-19
+* 更新了玩家全部信息的图片样式
+* 添加原神旅行札记功能 
+* 命令：zj[月份]  |  札记[月份]  
+此功能参考[LittlePaimon](https://github.com/CMHopeSunshine/LittlePaimon)    实现，可查询最近三个月的情况。 
+![命令-札记](https://user-images.githubusercontent.com/41506567/164029508-1cefa88f-f1d1-45df-bafd-3c382686d3e5.png)
+![命令-札记](https://user-images.githubusercontent.com/41506567/164029852-5d14b640-e096-42c9-acf0-a21724a026cb.png)
+
 ### 2022-04-18 
 * 添加抖音分享链接自动解析功能 
 wx屏蔽抖音分享，真的狗啊。每次分享还需要自己下载以后再上传微信，太麻烦了。新功能将自动检测含有 “https://v.douyin.com” 的聊天信息，然后自动解析视频信息，并自动下载上传视无水印视频。下次再分享抖音视频的时候，直接选择【复制链接】即可。  
-![image](https://user-images.githubusercontent.com/41506567/163771322-efc2c181-3936-4ef5-8016-435589d6d1bb.png)
+![被动-抖音链接解析](https://user-images.githubusercontent.com/41506567/163771322-efc2c181-3936-4ef5-8016-435589d6d1bb.png)
 
 ### 2022-04-08 
 * 添加随机发送cos图片功能，大约一万张，来源于米游社 
 * 命令：cos[关键词]  
-![image](https://user-images.githubusercontent.com/41506567/162397035-deecb86d-2f7f-4ad2-9ecf-ccc3c061433b.png)
+![命令-cos](https://user-images.githubusercontent.com/41506567/162397035-deecb86d-2f7f-4ad2-9ecf-ccc3c061433b.png)
 
 ### 2022-04-05 
 * 添加B站链接自动解析功能 
 当用户发送的聊天信息中，包含B站视频链接，将自动解析。支持BV，av，b23.tv的链接。
-![image](https://user-images.githubusercontent.com/41506567/161687664-c53ba1b5-3c7d-4f2d-910e-691b9ae6fddb.png) 
+![被动-B站链接解析](https://user-images.githubusercontent.com/41506567/161687664-c53ba1b5-3c7d-4f2d-910e-691b9ae6fddb.png) 
 ### 2022-03-04
 * 添加B站动态自由订阅功能。  
 之前的B站动态推送是写死的，只推送【原神】，现在增加了自由订阅功能，可以订阅自己喜欢的用户的B站动态啦。发送命令就可以对订阅进行增、删、查。
@@ -101,19 +109,23 @@ wx屏蔽抖音分享，真的狗啊。每次分享还需要自己下载以后再
 如：周六素材  
 ![命令-周 x素材](https://user-images.githubusercontent.com/41506567/150276404-f4d5a5b5-e808-402e-9d1a-f692c08c4b35.png)
 
-## 8、命令：今日运势
-## 9、命令：mrrw | 我的每日  
+## 8、账号绑定
+此命令需要私聊及机器进行操作。  
+命令：绑定uid[xxxxxxx]  
+命令：绑定cookie[xxxxxxxxxx]  
+后续的【9】、【10】、【11】均依赖账号绑定。
+## 9、命令：ys  
 输入此命令，机器人将回复原神便签文字版。  
-注：此功能需要提供账号cookies，emm。  
-![命令-mrrw](https://user-images.githubusercontent.com/41506567/150276425-b0973b5d-365b-46c0-9026-05cfd8426e12.png)
+注：此功能需要提前绑定绑定uid、cookies，emm。  
+![命令-ys](https://user-images.githubusercontent.com/41506567/150276425-b0973b5d-365b-46c0-9026-05cfd8426e12.png)
 
-## 10、命令：玩家信息[uid]  
-输入此命令，机器人将回复玩家卡牌信息的截图。  
-如：玩家信息xxx  
-![命令-玩家信息xxx](https://user-images.githubusercontent.com/41506567/150276504-1ad2f6af-a81f-4fb5-96bb-59e9cbb41276.png)
-![玩家信息](https://user-images.githubusercontent.com/41506567/150276519-28385b02-8a62-4bf4-8e6b-2e9a73aca90d.png)  
+## 10、命令：yss  
+输入此命令，机器人将回复玩家信息卡片。  
+注：此功能需要提前绑定绑定uid、cookies，emm。 
+![命令-yss](https://user-images.githubusercontent.com/41506567/150276504-1ad2f6af-a81f-4fb5-96bb-59e9cbb41276.png)
+![玩家信息卡片](https://user-images.githubusercontent.com/41506567/164033007-71ddc503-426c-42c5-ad9f-3aaa559bac4d.jpg)
 注：由于米游社限制了查询其他玩家所有卡牌，只能查看前八个，自娱自乐了，emm。
-## 11、命令：深渊信息[uid]  
+## 11、命令：sy  
 输入此命令，机器人将回复玩家深渊战斗的相关信息。  
 为了防止世界被破坏，为了保护世界和平，emmm，防止pvp，此功能暂未公开。  
 ## 12、命令：本期up | up池  
@@ -130,7 +142,7 @@ wx屏蔽抖音分享，真的狗啊。每次分享还需要自己下载以后再
 ![命令-更新所有信息](https://user-images.githubusercontent.com/41506567/150276769-e6a81072-4df5-4b14-b334-d1c81c2aadb8.png) 
 ## 15、命令：抽卡分析[url] 
 输入此命令，参数为抽卡记录页的url，机器人将回复玩家抽卡记录的分析情况。 
-![image](https://user-images.githubusercontent.com/41506567/151303626-b34033ae-252e-4dfe-88fc-6ecef71a40a2.png)
+![命令-抽卡记录分析](https://user-images.githubusercontent.com/41506567/151303626-b34033ae-252e-4dfe-88fc-6ecef71a40a2.png)
 ## 16、命令：[角色 | 武器 | 常驻]十连
 输入此命令，可进行角色池、武器池、常驻池的模拟抽卡，机器人加回复抽卡结果图片。数据库将记录所有成员的所有抽卡记录，可进行相关分析。 
 注：此功能来自于[Genshin_Impact_bot](https://github.com/GardenHamster/GenshinPray) 模拟抽卡功能。感谢大佬。
@@ -160,7 +172,13 @@ wx屏蔽抖音分享，真的狗啊。每次分享还需要自己下载以后再
 ## 5、命令：到点了 | 网易云| 网抑云 | 难过
 输入此命令后，机器人将随机返回一句网易云歌曲热评  
 如：到点了  
-![命令-网易云热评](https://user-images.githubusercontent.com/41506567/150276904-fd09a588-4011-4201-b064-bcf50f390c68.png)
+![命令-网易云热评](https://user-images.githubusercontent.com/41506567/150276904-fd09a588-4011-4201-b064-bcf50f390c68.png) 
+## 6、B站订阅的增删查
+* 命令：订阅列表  
+* 命令：添加订阅[xxxx]
+* 命令：删除订阅[xxxx]  
+注意：删除订阅时，删除的名字要和订阅列表中的名字一致，否则可能出错。
+![image](https://user-images.githubusercontent.com/41506567/164035162-acdbf68c-2d97-4724-b374-9a368aa2bd6e.png)
 
 # 三、被动技能
 ## 1、自动推送群里订阅的相关账号的B站动态
