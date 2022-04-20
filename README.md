@@ -35,6 +35,12 @@
 - [x]  网易云热评
 - [x]  复读机
 # 更新记录 
+### 2022-04-20
+* 添加圣遗物评分功能
+发送圣遗物截图，可自动返回圣遗物评分，评分标准，参考可莉特调。 
+![image](https://user-images.githubusercontent.com/41506567/164192672-c05cffc8-2546-4e4a-8516-ad334cff6766.png)
+![f897cb79cad021d741e4787ecbabd97](https://user-images.githubusercontent.com/41506567/164192700-c2481a57-0e2e-49dd-bf39-5117b1d84e25.png)
+
 ### 2022-04-19
 * 更新了玩家全部信息的图片样式
 * 添加原神旅行札记功能 
