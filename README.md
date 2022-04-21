@@ -35,10 +35,17 @@
 - [x]  网易云热评
 - [x]  复读机
 # 更新记录 
+### 2022-04-21
+* 添加深渊信息查询功能  
+命令：sy   |   深渊   
+机器人将返回深渊信息卡片  
+![深渊信息卡片](https://user-images.githubusercontent.com/41506567/164443459-dd01148a-68d6-47a8-82eb-793373e8c994.png)
+
+* 更新帮助菜单
 ### 2022-04-20
 * 添加圣遗物评分功能
 发送圣遗物截图，可自动返回圣遗物评分，评分标准，参考可莉特调。 
-![image](https://user-images.githubusercontent.com/41506567/164192672-c05cffc8-2546-4e4a-8516-ad334cff6766.png)
+![圣遗物评分](https://user-images.githubusercontent.com/41506567/164192672-c05cffc8-2546-4e4a-8516-ad334cff6766.png)
 ![f897cb79cad021d741e4787ecbabd97](https://user-images.githubusercontent.com/41506567/164192700-c2481a57-0e2e-49dd-bf39-5117b1d84e25.png)
 
 ### 2022-04-19
@@ -76,8 +83,7 @@ wx屏蔽抖音分享，真的狗啊。每次分享还需要自己下载以后再
 # 一、原神游戏相关功能
 ## 1、命令：help | 菜单 | 帮助
 输入此命令，机器人将回复功能菜单。  
-![命令-帮助](https://user-images.githubusercontent.com/41506567/150275927-082eb8a7-6346-447c-af64-9208e0130bc6.png)
-
+![帮助菜单](https://user-images.githubusercontent.com/41506567/164443944-7ed4912e-f4b4-4050-9bbb-e4c9f0afce51.png) 
 ## 2、命令：基本信息[人物名 | 武器名 | 圣遗物名]
 输入此命令，机器人将回复相关信息图片。（此信息来源于：https://wiki.biligame.com/）  
 如：基本信息雷电将军  
