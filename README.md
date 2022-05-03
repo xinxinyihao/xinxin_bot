@@ -27,7 +27,7 @@
 ### 日常功能
 - [x] B站UP动态自由订阅 【文字 | 图片】
 - [x] B站视频链接解析 【BV | av | b23.tv】
-- [x] 抖音视频解析 【https://v.douyin.com】
+- [x] 抖音视频解析 【 https://v.douyin.com 】
 - [x] 疫情信息【省 | 市】
 - [x] 微博热搜
 - [x]  pixiv搜图
@@ -42,7 +42,9 @@
 命令：广播$联系人名称$需要广播的内容  
 命令：群组广播$群组名称$需要广播的内容  
 ```
-![image](https://user-images.githubusercontent.com/41506567/166201278-ad67ec9d-45e0-42b3-8585-9245460993e8.png)
+![image](https://user-images.githubusercontent.com/41506567/166400745-ed52faef-80de-41c1-929d-cd40f24b3425.png)
+![image](https://user-images.githubusercontent.com/41506567/166400760-b4ac95db-fec8-43ea-804d-ccf6b3b548a2.png)
+
 
 以上命令当名称省略时，将像机器人的所有好友或者所有群组发送广播。注意$分隔符，广播权限仅机器人所有者具有，需要配置。  
 ```
