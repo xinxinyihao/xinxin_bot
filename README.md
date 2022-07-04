@@ -42,16 +42,23 @@
 * 命令可以一次查看一个角色的图片，也可以一次性返回全部角色的图片。
 * 现在只是进行了比较简单的圣遗物有效词条统计和评级，计算方式还有待后续优化。后续会添加天赋等级、武器评级，争取完成角色整体练度评级。
 * 展示图片为我的高达，很强吧，哈哈哈，嗝，记得来带我啊
-![b280ce061e0f2745af597b67814350e](https://user-images.githubusercontent.com/41506567/177092169-1b4da4df-b4ca-4695-9e5f-ed82c9f92a55.jpg)
-* 一次性多角色展示
-![e219428403d4af521b073ef815b782a](https://user-images.githubusercontent.com/41506567/177093151-f4d589e2-acc3-4781-b199-7a8859fa5ac2.jpg)
+* 展示指定一个角色 
+
+![image](https://user-images.githubusercontent.com/41506567/177179010-3615bd8f-4f77-4c0b-b060-e17c20dcc50d.png)
+
+![ece77e8f3c903cc3a1e379753edecc1](https://user-images.githubusercontent.com/41506567/177178383-4e489578-7f44-4856-af24-10d7da881279.jpg)
+* 一次性多角色展示 
+
+![image](https://user-images.githubusercontent.com/41506567/177179047-c85935e0-7978-49bb-9635-b8c5166c1043.png)
+
+![3a9c1eb4ee1de0f36a7317c44e5fc3b](https://user-images.githubusercontent.com/41506567/177178951-c510981b-0506-4f9f-a162-9ccb40e883a7.jpg)
 
 
 ### 2022-06-30
 * 调整活动日历的返回样式，从以前的纯文本，改为图片样式的图文混排，添加了更多活动内容的统计。图片样式，参考https://github.com/nicklly/nonebot_plugin_genshin_calendar  ，感谢大佬的优秀设计。
 * 命令：hdrl或者活动日历
 ![0c23e267532a4c17fb33c91d358dfef](https://user-images.githubusercontent.com/41506567/177092496-189aeef8-9f24-4940-b401-5f151e0a986c.jpg)
-![image](https://user-images.githubusercontent.com/41506567/177092491-f059d1e9-e964-43f9-b01f-ea609b92c8b0.png) 
+
 
 ### 2022-06-27 
 * 添加签到功能，签到可随机获得好感度，后续准备将好感度当货币，在上面做点文章，嘿嘿嘿。
